@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @ResponseBody
 public class TestController
 {
-	@GetMapping("/")
+	@GetMapping("/helloworld")
 	public String test()
 	{
 		System.out.println("Hello World");
